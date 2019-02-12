@@ -1,0 +1,391 @@
+/*Contact Me CSS*/
+.footer {
+text-align: center;
+}
+body {
+
+}
+p,
+.descriptions, .contact-info {
+font-family: 'oswald', serif;
+letter-spacing: 0.05em;
+font-size: 30px;
+list-style-type: none;
+float: center;
+margin-left: auto;
+margin-right: auto;
+}
+.navigation {
+font-size: 18px;
+position: fixed;
+background-color:#232022;
+width: 100%;
+-webkit-font-smoothing: antialiased;
+height: 70px;
+margin-top: -32.5px;
+margin-left: -8px;
+box-shadow: -10px 5px 10px 0px #4E504A;
+opacity: 0.95;
+z-index: 200;
+}
+.navigation li {
+color: black;
+font-family: 'Oswald';
+font-size: 18px;
+display: inline;
+width: 100%;
+float: center;
+padding: 0px 10px;
+}
+.navigation a:link {
+color: white;
+text-decoration: none;
+}
+.navigation a:hover {
+color: #5AB4E3;
+text-decoration: none;
+}
+.navigation a:visited {
+color: white;
+text-decoration: none;
+}
+ul.links {
+  margin-top: 20px;
+}
+.contact-info {
+max-width: 38em;
+margin-left: 40%;
+margin-right: auto;
+margin-top: 1em;
+letter-spacing: 0.05em;
+text-shadow: 2px 4px 5px #ffffff;
+}
+.contact-title,
+.web-projects-title {
+  margin-left: 30%;
+  color: white;
+  opacity: 0;
+}
+h2, h1 {
+color: #740639;
+font-family: 'Lobster Two', cursive;
+}
+.footer {
+border-radius: 5px 5px 15px 20px;
+box-shadow: 6px 6px 2px #C8C8C8;
+background-size: 900px;
+background-position: cover;
+background-repeat: no-repeat;
+background-color: #232022;
+color: white;
+padding: 18px 0;
+letter-spacing: 0.0em;
+margin-top: -202px;
+width: 101%;
+margin-left:-7.16px;
+}
+.linkme {
+font-size: 30px;
+font-family: 'Lobster Two', cursive;
+}
+.sociallinks {
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+}
+.sociallinks ul {
+padding:0px;
+}
+.sociallinks li {
+list-style-type: none;
+display: inline-block;
+}
+.sociallinks i {
+  color: white;
+}
+.footer .sociallinks a:link {
+color: #FFF;
+text-decoration: none;
+}
+.footer .sociallinks a:hover {
+color: #FFB3FF;
+text-decoration: none;
+}
+.footer .sociallinks a:visited {
+color: #FF9900;
+text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    .mastheader {
+      padding: 2em 0;
+    }
+    .masthead-heading {
+      font-size: 2em;
+    }
+    .footer {
+      padding: 1em 0;
+    }
+    .sociallinks, p, .linkme, .cover{
+      font-size: .8em;
+    }
+    .moreaboutme,
+    .projects, .job-title,
+    .bit-about-me,
+    .info, .web-header {
+      font-size: 1em;
+      padding: 1em 5px;
+    }
+    .contact-info {
+      font-size: 1em;
+      padding: 1em 20px 1em -10px;
+    }
+    .navigation {
+      padding: 15px 5px;
+      font-size: .01em;
+    }
+    .mesa,
+    .love,
+    .neverfails,
+    .third-place,
+    .lovecoding {
+      font-size: 1.5em;
+      padding: 1em 5px;
+    }
+  }
+}
+#home {
+  font-size:18px ;
+  text-shadow: 2px 2px 8px #CF0053;
+  font-color: #232022;
+  margin-top: -5px;
+}
+.navigation .home-icon {
+  width: 29px;
+  margin-top: 2px;
+}
+.amy-tom {
+  margin-top: 0.2em;
+  margin-bottom: 50px;
+  font-size: 80px;
+  font-family: 'Lobster Two', cursive;
+  color: #720000;
+  -webkit-font-smoothing: antialiased;
+}
+.content {
+  margin-bottom: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+}
+.nothing {
+  color: #FAFAFA;
+  opacity: 0;
+}
+.copyright {
+  font-size: 10px;
+}
+
+/**Drop me a Line**/
+.letstalk {
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  font-size:38px;
+  margin-top: -50px;
+  color: white;
+}
+.subtitle {
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  font-size: 24px;
+  margin: 0 auto;
+  color: #404040;
+  width: 55%;
+}
+
+/*Contact Form**/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url(https://cloud.githubusercontent.com/assets/11380566/15007929/86137ff2-11aa-11e6-8a4c-6f378e8322c2.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+  text-align:center;
+}
+
+#form-main{
+  width:100%;
+  float:left;
+  padding-top:0px;
+  z-index: -3;
+}
+
+#form-div {
+  background-color:rgba(72,72,72,0.4);
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:10px;
+  padding-bottom:20px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top:30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}
+
+#button-blue{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float:left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: #3498db;
+  color:white;
+  font-size:24px;
+  padding-top:22px;
+  padding-bottom:22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+  background-color: rgba(0,0,0,0);
+  color: #0493bd;
+}
+  
+.submit:hover {
+  color: #3498db;
+}
+  
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div{
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+#home a:link {
+  color: #ff80bf;
+}
+#home a:visited {
+  color: #ff80bf;
+}
+#home a:hover{
+  color: #C03B73;
+}
+#home {
+  font-size:28px ;
+  font-color: #232022;
+  margin-top: -5px;
+}
+
+
